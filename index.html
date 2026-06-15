@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serenity Therapy | Licensed Psychotherapy Services</title>
+  <meta name="description" content="Compassionate, evidence-based psychotherapy for individuals and couples. Book a free 15-minute consultation today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="14" fill="#5B8C5A"/>
+          <path d="M8 14c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="14" cy="17" r="2.5" fill="#fff"/>
+        </svg>
+        Serenity Therapy
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#how-it-works" class="nav-link">Process</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Book Now</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="hero-eyebrow">Licensed Psychotherapy &amp; Counseling</span>
+          <h1 class="hero-title">A Safe Space<br /><em>to Heal and Grow</em></h1>
+          <p class="hero-subtitle">
+            You don't have to navigate life's challenges alone. Together, we'll
+            explore the patterns holding you back and build the resilience to
+            move forward with clarity and confidence.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Book a Free Consultation</a>
+            <a href="#services" class="btn btn-ghost">Explore Services</a>
+          </div>
+          <p class="hero-note">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M8 1a7 7 0 100 14A7 7 0 008 1zm0 3a1 1 0 110 2 1 1 0 010-2zm1.5 7.5h-3v-1h1v-3H6.5v-1h2v4h1v1z" fill="#5B8C5A"/>
+            </svg>
+            All sessions are confidential &bull; Telehealth &amp; in-person available
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <div class="hero-image-frame">
+            <svg viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a peaceful therapy environment">
+              <!-- Window -->
+              <rect x="60" y="40" width="280" height="200" rx="8" fill="#E8F0E8" stroke="#5B8C5A" stroke-width="2"/>
+              <line x1="200" y1="40" x2="200" y2="240" stroke="#5B8C5A" stroke-width="2"/>
+              <line x1="60" y1="140" x2="340" y2="140" stroke="#5B8C5A" stroke-width="2"/>
+              <!-- Plant in window -->
+              <ellipse cx="200" cy="100" rx="30" ry="10" fill="#5B8C5A" opacity="0.3"/>
+              <path d="M185 100 Q190 70 200 60 Q210 70 215 100" fill="#5B8C5A" opacity="0.5"/>
+              <path d="M175 105 Q180 85 190 80" stroke="#5B8C5A" stroke-width="2" fill="none"/>
+              <path d="M225 105 Q220 85 210 80" stroke="#5B8C5A" stroke-width="2" fill="none"/>
+              <!-- Couch -->
+              <rect x="40" y="310" width="320" height="80" rx="12" fill="#C8A97E" opacity="0.8"/>
+              <rect x="40" y="280" width="320" height="40" rx="8" fill="#B8916A"/>
+              <rect x="40" y="280" width="30" height="110" rx="8" fill="#B8916A"/>
+              <rect x="330" y="280" width="30" height="110" rx="8" fill="#B8916A"/>
+              <!-- Cushions -->
+              <rect x="60" y="285" width="80" height="30" rx="6" fill="#C8A97E"/>
+              <rect x="160" y="285" width="80" height="30" rx="6" fill="#C8A97E"/>
+              <rect x="260" y="285" width="80" height="30" rx="6" fill="#C8A97E"/>
+              <!-- Floor -->
+              <rect x="0" y="390" width="400" height="90" rx="0" fill="#F0EBE3"/>
+              <!-- Rug -->
+              <ellipse cx="200" cy="400" rx="160" ry="20" fill="#D4C4B0" opacity="0.6"/>
+              <!-- Table -->
+              <rect x="160" y="345" width="80" height="8" rx="4" fill="#8B6F4E"/>
+              <rect x="173" y="353" width="8" height="30" rx="2" fill="#8B6F4E"/>
+              <rect x="219" y="353" width="8" height="30" rx="2" fill="#8B6F4E"/>
+              <!-- Candle on table -->
+              <rect x="196" y="330" width="8" height="15" rx="2" fill="#F5F0E8"/>
+              <ellipse cx="200" cy="330" rx="4" ry="2" fill="#E8D8C0"/>
+              <path d="M200 328 Q202 323 200 320 Q198 323 200 328" fill="#C8A97E"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <div class="scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">What I Offer</span>
+          <h2 class="section-title">Therapy Tailored to You</h2>
+          <p class="section-subtitle">
+            Every person's journey is unique. I offer a range of evidence-based
+            therapeutic approaches to meet you where you are.
+          </p>
+        </div>
+        <div class="services-grid">
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <circle cx="20" cy="14" r="7" stroke="#5B8C5A" stroke-width="2"/>
+                <path d="M6 34c0-7.7 6.3-14 14-14s14 6.3 14 14" stroke="#5B8C5A" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Individual Therapy</h3>
+            <p class="service-desc">
+              One-on-one sessions in a confidential, judgment-free space. We work
+              collaboratively to uncover the root causes of your struggles and
+              develop practical tools for lasting change.
+            </p>
+            <a href="#contact" class="service-link">Learn more →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M20 8c-4.4 0-8 3.6-8 8 0 3 1.6 5.6 4 7.1V26l4 4 4-4v-2.9c2.4-1.5 4-4.1 4-7.1 0-4.4-3.6-8-8-8z" stroke="#5B8C5A" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M16 34h8" stroke="#5B8C5A" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Anxiety &amp; Depression</h3>
+            <p class="service-desc">
+              Using Cognitive Behavioral Therapy (CBT) and mindfulness-based
+              techniques, we'll challenge unhelpful thought patterns and rebuild
+              your sense of calm and purpose.
+            </p>
+            <a href="#contact" class="service-link">Learn more →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <circle cx="13" cy="15" r="5" stroke="#5B8C5A" stroke-width="2"/>
+                <circle cx="27" cy="15" r="5" stroke="#5B8C5A" stroke-width="2"/>
+                <path d="M4 34c0-5 4-9 9-9" stroke="#5B8C5A" stroke-width="2" stroke-linecap="round"/>
+                <path d="M36 34c0-5-4-9-9-9" stroke="#5B8C5A" stroke-width="2" stroke-linecap="round"/>
+                <path d="M17 34c0-3.3 1.3-6 3-6s3 2.7 3 6" stroke="#5B8C5A" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Relationship Counseling</h3>
+            <p class="service-desc">
+              Whether you're navigating conflict, rebuilding trust, or learning
+              to communicate more effectively, relationship therapy helps both
+              partners feel heard and valued.
+            </p>
+            <a href="#contact" class="service-link">Learn more →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M20 6L8 20l12 14 12-14L20 6z" stroke="#5B8C5A" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M20 6v28" stroke="#5B8C5A" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 20h24" stroke="#5B8C5A" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Trauma &amp; PTSD</h3>
+            <p class="service-desc">
+              Trauma-informed care using EMDR and somatic approaches helps you
+              process difficult experiences safely, reducing their hold on your
+              daily life and restoring a sense of safety.
+            </p>
+            <a href="#contact" class="service-link">Learn more →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap" aria-hidden="true">
+          <div class="about-avatar">
+            <svg viewBox="0 0 240 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="240" height="280" rx="120" fill="#E8F0E8"/>
+              <circle cx="120" cy="100" r="50" fill="#C8A97E"/>
+              <path d="M40 260c0-44.2 35.8-80 80-80s80 35.8 80 80" fill="#5B8C5A" opacity="0.8"/>
+              <!-- Face features -->
+              <circle cx="105" cy="95" r="4" fill="#8B6F4E"/>
+              <circle cx="135" cy="95" r="4" fill="#8B6F4E"/>
+              <path d="M110 115 Q120 122 130 115" stroke="#8B6F4E" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+          <div class="about-badge">
+            <span class="badge-number">10+</span>
+            <span class="badge-label">Years Experience</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Dr. Sarah Calloway, LCSW</h2>
+          <p class="about-credentials">
+            <span class="credential-tag">Licensed Clinical Social Worker</span>
+            <span class="credential-tag">EMDR Certified</span>
+            <span class="credential-tag">CBT Specialist</span>
+          </p>
+          <p class="about-text">
+            I believe therapy is one of the most courageous things a person can do.
+            My approach is warm, collaborative, and deeply rooted in respect for
+            each person's unique story. I don't believe in a one-size-fits-all
+            model — together, we'll find what works for you.
+          </p>
+          <p class="about-text">
+            With over a decade of experience working with adults navigating anxiety,
+            depression, relationship challenges, and the aftermath of trauma, I draw
+            from evidence-based practices including Cognitive Behavioral Therapy (CBT),
+            Eye Movement Desensitization and Reprocessing (EMDR), and mindfulness-based
+            interventions.
+          </p>
+          <p class="about-text">
+            I completed my MSW at Columbia University and hold my doctorate from NYU.
+            I am fully licensed in New York and New Jersey, and offer both in-person
+            sessions in Manhattan and secure telehealth appointments nationwide.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Clients Served</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">2</span>
+              <span class="stat-label">States Licensed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="how-it-works section" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Getting Started</span>
+          <h2 class="section-title">Your Path to Healing</h2>
+          <p class="section-subtitle">
+            Beginning therapy can feel daunting. Here's exactly what to expect
+            when you reach out.
+          </p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number" aria-hidden="true">01</div>
+            <div class="step-content">
+              <h3 class="step-title">Reach Out</h3>
+              <p class="step-desc">
+                Complete the contact form or call the office. I personally respond
+                to all inquiries within one business day. There's no pressure —
+                this is simply a conversation.
+              </p>
+            </div>
+          </div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step-number" aria-hidden="true">02</div>
+            <div class="step-content">
+              <h3 class="step-title">Free 15-Min Consultation</h3>
+              <p class="step-desc">
+                We'll have a brief phone call so you can share what's bringing you
+                to therapy and I can answer any questions. This helps us both make
+                sure we're a good fit before committing.
+              </p>
+            </div>
+          </div>
+          <div class="step-connector" aria-hidden="true"></div>
+          <div class="step">
+            <div class="step-number" aria-hidden="true">03</div>
+            <div class="step-content">
+              <h3 class="step-title">Begin Your Journey</h3>
+              <p class="step-desc">
+                We schedule your first full session — 50 minutes — and begin the
+                real work together. Most clients start to notice meaningful shifts
+                within the first few months.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Client Stories</span>
+          <h2 class="section-title">Words from Those I've Worked With</h2>
+        </div>
+        <div class="testimonials-grid">
+
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-text">
+              "Working with Dr. Calloway has been truly life-changing. I came in
+              overwhelmed by anxiety that was affecting every part of my life.
+              After six months, I have tools I actually use every day and I feel
+              like myself again."
+            </p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">M</div>
+              <div>
+                <cite class="author-name">Maya R.</cite>
+                <span class="author-context">Anxiety &amp; Stress</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-text">
+              "I was skeptical about therapy but a friend insisted I try. The
+              warmth and professionalism in that first session immediately put
+              me at ease. The EMDR work we did around my past trauma was
+              genuinely transformative."
+            </p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">J</div>
+              <div>
+                <cite class="author-name">James T.</cite>
+                <span class="author-context">Trauma Recovery</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <p class="testimonial-text">
+              "My partner and I were on the verge of separating. The relationship
+              work we did together gave us a shared language and real strategies.
+              A year later, our communication is stronger than it's ever been."
+            </p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">A</div>
+              <div>
+                <cite class="author-name">Anika &amp; Daniel S.</cite>
+                <span class="author-context">Couples Therapy</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-label">Get in Touch</span>
+          <h2 class="section-title">Take the First Step</h2>
+          <p class="contact-intro">
+            Reaching out is the hardest part. Whether you have questions or are
+            ready to book, I'm here to help. All inquiries are completely
+            confidential.
+          </p>
+          <ul class="contact-details" role="list">
+            <li class="contact-detail">
+              <div class="detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 2C7.2 2 5 4.2 5 7c0 4.2 5 11 5 11s5-6.8 5-11c0-2.8-2.2-5-5-5zm0 6.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" fill="#5B8C5A"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Office</strong><br />
+                123 West 72nd Street, Suite 4B<br />New York, NY 10023
+              </div>
+            </li>
+            <li class="contact-detail">
+              <div class="detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M3 4a1 1 0 011-1h2.5l1.5 3.5-1.8 1.1a11 11 0 005.2 5.2l1.1-1.8L16 12.5V15a1 1 0 01-1 1C7.3 16 4 9.7 4 5a1 1 0 01-1-1z" fill="#5B8C5A"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Phone</strong><br />
+                (212) 555-0182
+              </div>
+            </li>
+            <li class="contact-detail">
+              <div class="detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <rect x="2" y="4" width="16" height="12" rx="2" stroke="#5B8C5A" stroke-width="1.5"/>
+                  <path d="M2 7l8 5 8-5" stroke="#5B8C5A" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Email</strong><br />
+                hello@serenitytherapynyc.com
+              </div>
+            </li>
+            <li class="contact-detail">
+              <div class="detail-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <circle cx="10" cy="10" r="8" stroke="#5B8C5A" stroke-width="1.5"/>
+                  <path d="M10 5v5l3 3" stroke="#5B8C5A" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Hours</strong><br />
+                Mon–Fri 8am–7pm &bull; Sat 9am–1pm
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(212) 555-0000" autocomplete="tel" />
+              </div>
+              <div class="form-group">
+                <label for="service">Area of Interest</label>
+                <select id="service" name="service">
+                  <option value="">Select a service…</option>
+                  <option>Individual Therapy</option>
+                  <option>Anxiety &amp; Depression</option>
+                  <option>Relationship Counseling</option>
+                  <option>Trauma &amp; PTSD</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="preferred-time">Preferred Appointment Time</label>
+              <select id="preferred-time" name="preferred-time">
+                <option value="">Select a preference…</option>
+                <option>Weekday mornings (8am–12pm)</option>
+                <option>Weekday afternoons (12pm–5pm)</option>
+                <option>Weekday evenings (5pm–7pm)</option>
+                <option>Saturday mornings (9am–1pm)</option>
+                <option>Telehealth only</option>
+                <option>Flexible</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">What brings you to therapy? <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="Share as much or as little as you'd like…" required></textarea>
+            </div>
+            <p class="form-note">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <rect x="3" y="6" width="8" height="7" rx="1" stroke="#5B8C5A" stroke-width="1.2"/>
+                <path d="M5 6V4.5a2 2 0 014 0V6" stroke="#5B8C5A" stroke-width="1.2"/>
+              </svg>
+              All inquiries are strictly confidential and protected by HIPAA.
+            </p>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <div class="form-success" id="form-success" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo footer-logo">
+          <svg width="24" height="24" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <circle cx="14" cy="14" r="14" fill="#5B8C5A"/>
+            <path d="M8 14c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="14" cy="17" r="2.5" fill="#fff"/>
+          </svg>
+          Serenity Therapy
+        </a>
+        <p class="footer-tagline">Compassionate care for a clearer mind.</p>
+        <p class="footer-license">Licensed in New York &amp; New Jersey<br />LCSW #087432 &bull; NPI #1234567890</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h3 class="footer-nav-title">Quick Links</h3>
+        <ul role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#how-it-works">Process</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h3 class="footer-nav-title">Contact</h3>
+        <address>
+          123 West 72nd Street, Suite 4B<br />
+          New York, NY 10023<br />
+          <a href="tel:+12125550182">(212) 555-0182</a><br />
+          <a href="mailto:hello@serenitytherapynyc.com">hello@serenitytherapynyc.com</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Serenity Therapy, PLLC. All rights reserved.</p>
+        <p class="footer-disclaimer">
+          This website is for informational purposes only and does not constitute
+          medical advice or establish a therapist-client relationship.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
